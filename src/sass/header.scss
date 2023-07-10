@@ -1,0 +1,145 @@
+body{
+margin: 0px;
+}
+.header{
+    height: 90px;
+    width: 100vw;
+    background-color: rgba(197, 129, 129, 0.589);
+    display: flex;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 8;
+   
+
+    
+    .header-child1 {
+        height:100%;
+        width:350px;
+       display: flex;
+   
+       
+        .logo{
+            height:70%;
+            width: 40%;
+            margin: 10px 10px;
+            margin-left: 30px;
+            display: flex;
+            flex-direction: row;
+           
+            
+            div{
+                font-size: 20px;
+                display: flex;
+               cursor: pointer;
+               flex-direction: row;
+               justify-content: baseline;
+              margin-left: 29px;
+              margin-top: 18px;
+                
+
+                &:hover{
+             color :greenyellow;
+
+                }
+            }
+           
+
+            img{
+                height: 80%;
+                width: 50%;
+                border-radius: 20%;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                cursor : pointer
+              
+            }
+            }
+            
+        }
+    }
+
+.header-child2{
+    display: flex;
+    justify-content: space-evenly;
+    width:700px;
+  
+
+    .search-icon{
+        margin: auto;
+        cursor : pointer;
+        span{
+            margin-left: 15px;
+            font-size: 15px;
+           &:hover{
+            color:greenyellow;
+           }
+        }
+    }
+    
+    .offer{
+        cursor : pointer;
+        margin: auto;
+        span{
+            margin-left: 10px;
+            font-size: 15px;
+            &:hover{
+                color:greenyellow;
+               }
+        }
+    }
+
+    
+
+    }
+    .help{
+        cursor : pointer;
+        margin: auto;
+        span{
+            margin-left: 10px;
+            font-size: 15px;
+            &:hover{
+                color:greenyellow;
+               }
+        }
+    }
+
+    .customer-name{
+        cursor : pointer;
+        margin: auto;
+        span{
+            margin-left: 10px;
+            font-size: 15px;
+            &:hover{
+                color:greenyellow;
+               }
+        }
+
+    }
+
+    .cart{
+        cursor : pointer;
+        margin: auto;
+        span{
+            margin-left: 10px;
+            font-size: 15px;
+            &:hover{
+                color:greenyellow;
+               }
+        }
+
+    }
+
+}
+       
+      
+    
+           
+            
+  
+ 
+
+
+
+
+  

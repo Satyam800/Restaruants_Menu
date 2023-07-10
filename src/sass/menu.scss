@@ -1,0 +1,41 @@
+.menu{
+    position: absolute;
+    margin-top: 100px;
+height: 600px;
+width: 700px;
+    .menu-image img{
+        height: 60%;
+        width:60%;
+    }
+   
+.menu-button{
+    display: flex;
+
+    .menu-button-cart{
+        height: 50px;
+        width: 200px;
+        background-color: aquamarine;
+        color: black;
+        border: 2px solid blueviolet;
+        border-radius: 22px;
+        text-align: center;
+        padding-top: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+
+    }
+    .menu-button-whistlist{
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid blueviolet;
+    border-radius: 22px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+}
+
+}

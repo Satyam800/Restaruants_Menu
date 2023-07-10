@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+
+.header-alternate{
+    position: absolute;
+    margin-top: 0px;
+    background-color: rgb(109, 244, 99);
+    height: 90px;
+    width: 100vw;
+  display: flex;
+  justify-content: space-around;
+
+  
+
+  .resturant-count{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 37px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .header-alternate-item{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 3;
+    margin-top: 45px;
+
+    .search-icon2{
+        span{
+            margin-left: 12px;
+            font-size: 22px;
+        }
+    }
+
+    .filter{
+        display: flex;
+        justify-content: baseline;
+        span{
+            margin-right: 12px;
+        }
+    }
+    
+  }
+
+
+
+}
